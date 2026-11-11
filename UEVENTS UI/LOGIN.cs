@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using UEVENTS_UI.Resources;
 
 namespace UEVENTS_UI
 {
@@ -13,6 +14,14 @@ namespace UEVENTS_UI
         public LOGIN()
         {
             InitializeComponent();
+        }
+
+        private void buttonLogIn_Click(object sender, EventArgs e)
+        {
+            Lobby lobby = new Lobby();
+            lobby.Show();
+
+            this.Hide();
         }
     }
 }
