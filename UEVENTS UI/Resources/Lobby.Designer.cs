@@ -187,7 +187,7 @@
             panelAccount.Controls.Add(labelAccountPanelStudentName);
             panelAccount.Controls.Add(labelAccountPanel);
             panelAccount.Controls.Add(pictureBoxAccountPanel);
-            panelAccount.Location = new Point(97, 1);
+            panelAccount.Location = new Point(110, 1);
             panelAccount.Name = "panelAccount";
             panelAccount.Size = new Size(283, 449);
             panelAccount.TabIndex = 1;
